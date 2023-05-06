@@ -31,7 +31,7 @@ expansion before using this model&#39;s preparation method after testing and app
 In this study, we combined the image processing capability with our own designed CNN
 architecture.
 
-1) BACKGROUND OF CNN
+### 1) BACKGROUND OF CNN
 An advanced neural network is one that uses convolutional networks. Deep learning was employed
 in the calculation. In order for the machine to decide which class to divide into, the computation is
 carried out by having the model first take an input image and then assign significance to various
@@ -41,11 +41,11 @@ Furthermore, 2D information picture structures have particular desirable positio
 augmentation is applied here. This model has a number of layers, such as convolutional and
 subsampling layers.
 
-2) DATASET COLLECTION
+### 2) DATASET COLLECTION
 Four different eye conditions will be covered in this paper: normal, diabetic retinopathy, glaucoma,
 and cataract.
 
-3) DATA AUGMENTATION
+### 3) DATA AUGMENTATION
 We widened our informational collection to avoid overfitting. We added to our actual informational
 collection using five methods in order to broaden our important dataset and inspire us to group our
 model.
@@ -55,7 +55,7 @@ C. Shading.
 D. A salt and pepper grind
 E. Horizontal Flip.
 
-4) DATA PREPARATION
+### 4) DATA PREPARATION
 When we first started gathering the pictures, they were all in different sizes. Our informational index
 ranges in height, width, and size. In any case, our profound neural classifier needs a corresponding
 informational index in order to build and test the informational index. Therefore, the pixels were set
@@ -65,7 +65,7 @@ Our model has nine layers. There are also three convolutional layers:
 ● The second layer has 32-3 3 filters, and the activation function is &quot;linear”.
 ● The third layer has 64-3 3 filters, and the activation function is &quot;linear”.
 
-5) OCULAR DISEASE PREDICTION
+### 5) OCULAR DISEASE PREDICTION
 We have used simple CNN and pre-trained models such DenseNet201 and EfficientNetB3 are used for correction.Comparative analysis is performed among models and the
 model that gives the highest accuracy is used for eye disease prediction.
 
