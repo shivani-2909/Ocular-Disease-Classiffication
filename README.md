@@ -1,4 +1,4 @@
-# Ocular-Disease-Classiffication
+# Ocular-Disease-Classification
 
 ## Introduction
 Early ocular disease detection is an economic and effective way to prevent blindness
